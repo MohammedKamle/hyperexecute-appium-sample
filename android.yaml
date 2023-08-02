@@ -1,0 +1,23 @@
+version: "0.2"
+runson: android
+autosplit: true
+
+concurrency: 5
+
+pre:
+  - pip install -r requirements.txt
+
+dynamicAllocation: true
+
+testDiscovery:
+  command: cat tests.txt
+  mode: static
+  type: raw
+
+testRunnerCommand: python $test
+
+framework:
+  name: appium
+  args:
+    region: us 
+    # | ap | eu #use any one

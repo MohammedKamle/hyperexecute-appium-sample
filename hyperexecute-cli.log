@@ -1,0 +1,566 @@
+{"level":"debug","time":"2023-07-14T15:54:01.793+0530","caller":"cmd/bin.go:101","msg":"Upstream version: {Name: Min:0.2.96 Max:0.2.96} "}
+{"level":"debug","time":"2023-07-14T15:54:05.173+0530","caller":"core/lifecycle.go:95","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-14T15:54:05.174+0530","caller":"core/lifecycle.go:101","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-14T15:54:05.174+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-14T15:54:05.175+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-14T15:54:06.230+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T15:54:06.232+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-14T15:54:06.232+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-14T15:54:06.232+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.233+0530","caller":"models/HypertestYamlConfig.go:433","msg":""}
+{"level":"debug","time":"2023-07-14T15:54:06.233+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T15:54:06.234+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-14T15:54:06.234+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-14T15:54:06.234+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-14T15:54:06.234+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-14T15:54:06.257+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:06.257+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mappium.py\u001b[0m\n"}
+{"level":"info","time":"2023-07-14T15:54:06.257+0530","caller":"core/lifecycle.go:228","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-07-14T15:54:12.760+0530","caller":"core/lifecycle.go:352","msg":"Job ID: 69a8c76d-a051-477e-abfe-43e58bc534a3"}
+{"level":"debug","time":"2023-07-14T15:54:12.760+0530","caller":"core/lifecycle.go:358","msg":"User has provided android/appium as test type for the job with ID 69a8c76d-a051-477e-abfe-43e58bc534a3"}
+{"level":"debug","time":"2023-07-14T15:54:12.762+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T15:54:12.767+0530","caller":"core/lifecycle.go:477","msg":"Zip file size: 2.46 kB"}
+{"level":"debug","time":"2023-07-14T15:54:12.768+0530","caller":"core/lifecycle.go:486","msg":"Archive location: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-69a8c76d-a051-477e-abfe-43e58bc534a3.zip\n"}
+{"level":"debug","time":"2023-07-14T15:54:12.768+0530","caller":"storage/azure.go:51","msg":"Payload size: 2.46 kB"}
+{"level":"debug","time":"2023-07-14T15:54:12.769+0530","caller":"utils/azcopy.go:153","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-07-14T15:54:20.332+0530","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2023-07-14T15:54:24.376+0530","caller":"receptionmanager/setup.go:175","msg":"Uploading yaml : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T15:54:24.377+0530","caller":"storage/azure.go:51","msg":"Payload size: 1.56 kB"}
+{"level":"debug","time":"2023-07-14T15:54:28.048+0530","caller":"core/lifecycle.go:512","msg":"Successfully deleted code archive: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-69a8c76d-a051-477e-abfe-43e58bc534a3.zip\n"}
+{"level":"info","time":"2023-07-14T15:54:36.034+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m69a8c76d-a051-477e-abfe-43e58bc534a3\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:54:36.034+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=69a8c76d-a051-477e-abfe-43e58bc534a3\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T15:54:36.034+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-07-14T15:54:36.034+0530","caller":"jobmanager/setup.go:149","msg":"Task id: f73180cd-af29-415f-b1d1-685da52ccb65"}
+{"level":"debug","time":"2023-07-14T15:54:36.034+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: f73180cd-af29-415f-b1d1-685da52ccb65"}
+{"level":"debug","time":"2023-07-14T15:59:15.015+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-07-14T15:59:15.015+0530","caller":"core/lifecycle.go:590","msg":"taskId:f73180cd-af29-415f-b1d1-685da52ccb65 has failed with remark: completed\n"}
+{"level":"debug","time":"2023-07-14T15:59:15.015+0530","caller":"core/lifecycle.go:683","msg":"Context cancelled"}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"core/lifecycle.go:686","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-07-14T15:59:15.016+0530","caller":"core/lifecycle.go:689","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-07-14T15:59:15.016+0530","caller":"core/lifecycle.go:690","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T15:59:15.016+0530","caller":"core/lifecycle.go:692","msg":"All goroutines exited"}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=69a8c76d-a051-477e-abfe-43e58bc534a3\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    40s"}
+{"level":"debug","time":"2023-07-14T15:59:15.016+0530","caller":"cmd/bin.go:251","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2023-07-14T15:59:15.016+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"debug","time":"2023-07-14T16:05:40.374+0530","caller":"cmd/bin.go:101","msg":"Upstream version: {Name: Min:0.2.96 Max:0.2.96} "}
+{"level":"debug","time":"2023-07-14T16:05:43.541+0530","caller":"core/lifecycle.go:95","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-14T16:05:43.543+0530","caller":"core/lifecycle.go:101","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-14T16:05:43.543+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-14T16:05:43.544+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-14T16:05:44.479+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:05:44.481+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-14T16:05:44.481+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-14T16:05:44.481+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.483+0530","caller":"models/HypertestYamlConfig.go:433","msg":""}
+{"level":"debug","time":"2023-07-14T16:05:44.483+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:05:44.483+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-14T16:05:44.484+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-14T16:05:44.485+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-14T16:05:44.485+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-14T16:05:44.507+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:05:44.507+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-07-14T16:05:44.507+0530","caller":"core/lifecycle.go:228","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-07-14T16:05:45.698+0530","caller":"core/lifecycle.go:352","msg":"Job ID: b8e5c640-5134-4a30-b6f4-b7ded9080047"}
+{"level":"debug","time":"2023-07-14T16:05:45.698+0530","caller":"core/lifecycle.go:358","msg":"User has provided android/appium as test type for the job with ID b8e5c640-5134-4a30-b6f4-b7ded9080047"}
+{"level":"debug","time":"2023-07-14T16:05:45.700+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:05:45.708+0530","caller":"core/lifecycle.go:477","msg":"Zip file size: 2.45 kB"}
+{"level":"debug","time":"2023-07-14T16:05:45.708+0530","caller":"core/lifecycle.go:486","msg":"Archive location: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-b8e5c640-5134-4a30-b6f4-b7ded9080047.zip\n"}
+{"level":"debug","time":"2023-07-14T16:05:45.708+0530","caller":"storage/azure.go:51","msg":"Payload size: 2.45 kB"}
+{"level":"debug","time":"2023-07-14T16:05:51.709+0530","caller":"receptionmanager/setup.go:175","msg":"Uploading yaml : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:05:51.709+0530","caller":"storage/azure.go:51","msg":"Payload size: 1.56 kB"}
+{"level":"debug","time":"2023-07-14T16:05:55.008+0530","caller":"core/lifecycle.go:512","msg":"Successfully deleted code archive: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-b8e5c640-5134-4a30-b6f4-b7ded9080047.zip\n"}
+{"level":"info","time":"2023-07-14T16:06:02.399+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4mb8e5c640-5134-4a30-b6f4-b7ded9080047\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:02.401+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b8e5c640-5134-4a30-b6f4-b7ded9080047\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:06:02.401+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-07-14T16:06:02.401+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 067d7061-a78a-4f3a-9665-19927cdf9103"}
+{"level":"debug","time":"2023-07-14T16:06:02.401+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 067d7061-a78a-4f3a-9665-19927cdf9103"}
+{"level":"debug","time":"2023-07-14T16:06:36.767+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-07-14T16:06:36.768+0530","caller":"core/lifecycle.go:590","msg":"taskId:067d7061-a78a-4f3a-9665-19927cdf9103 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-07-14T16:06:36.769+0530","caller":"core/lifecycle.go:683","msg":"Context cancelled"}
+{"level":"info","time":"2023-07-14T16:06:36.769+0530","caller":"core/lifecycle.go:686","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-07-14T16:06:36.769+0530","caller":"core/lifecycle.go:689","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-07-14T16:06:36.769+0530","caller":"core/lifecycle.go:690","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-07-14T16:06:36.769+0530","caller":"core/lifecycle.go:692","msg":"All goroutines exited"}
+{"level":"info","time":"2023-07-14T16:06:36.770+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b8e5c640-5134-4a30-b6f4-b7ded9080047\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:06:36.770+0530","caller":"cmd/bin.go:251","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-07-14T16:06:52.691+0530","caller":"cmd/bin.go:101","msg":"Upstream version: {Name: Min:0.2.96 Max:0.2.96} "}
+{"level":"debug","time":"2023-07-14T16:06:54.773+0530","caller":"core/lifecycle.go:95","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-14T16:06:54.774+0530","caller":"core/lifecycle.go:101","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-14T16:06:54.774+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-14T16:06:54.774+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-14T16:06:55.711+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"models/HypertestYamlConfig.go:433","msg":""}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-14T16:06:55.712+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-14T16:06:55.712+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-14T16:06:55.725+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:06:55.725+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-07-14T16:06:55.725+0530","caller":"core/lifecycle.go:228","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-07-14T16:07:01.857+0530","caller":"core/lifecycle.go:352","msg":"Job ID: 82aa8e8c-dce7-472b-ad2f-af180c2a8cf4"}
+{"level":"debug","time":"2023-07-14T16:07:01.857+0530","caller":"core/lifecycle.go:358","msg":"User has provided android/appium as test type for the job with ID 82aa8e8c-dce7-472b-ad2f-af180c2a8cf4"}
+{"level":"debug","time":"2023-07-14T16:07:01.860+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:07:01.867+0530","caller":"core/lifecycle.go:477","msg":"Zip file size: 2.44 kB"}
+{"level":"debug","time":"2023-07-14T16:07:01.867+0530","caller":"core/lifecycle.go:486","msg":"Archive location: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-82aa8e8c-dce7-472b-ad2f-af180c2a8cf4.zip\n"}
+{"level":"debug","time":"2023-07-14T16:07:01.867+0530","caller":"storage/azure.go:51","msg":"Payload size: 2.44 kB"}
+{"level":"debug","time":"2023-07-14T16:07:05.298+0530","caller":"receptionmanager/setup.go:175","msg":"Uploading yaml : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:07:05.298+0530","caller":"storage/azure.go:51","msg":"Payload size: 1.56 kB"}
+{"level":"debug","time":"2023-07-14T16:07:08.916+0530","caller":"core/lifecycle.go:512","msg":"Successfully deleted code archive: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-82aa8e8c-dce7-472b-ad2f-af180c2a8cf4.zip\n"}
+{"level":"info","time":"2023-07-14T16:07:16.312+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m82aa8e8c-dce7-472b-ad2f-af180c2a8cf4\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:07:16.312+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=82aa8e8c-dce7-472b-ad2f-af180c2a8cf4\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:07:16.312+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-07-14T16:07:16.312+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 7a765057-92ed-4ed1-8334-296744622f63"}
+{"level":"debug","time":"2023-07-14T16:07:16.312+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 7a765057-92ed-4ed1-8334-296744622f63"}
+{"level":"debug","time":"2023-07-14T16:08:05.712+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-07-14T16:08:05.712+0530","caller":"core/lifecycle.go:590","msg":"taskId:7a765057-92ed-4ed1-8334-296744622f63 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-07-14T16:08:05.713+0530","caller":"core/lifecycle.go:683","msg":"Context cancelled"}
+{"level":"info","time":"2023-07-14T16:08:05.713+0530","caller":"core/lifecycle.go:686","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-07-14T16:08:05.713+0530","caller":"core/lifecycle.go:689","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-07-14T16:08:05.713+0530","caller":"core/lifecycle.go:690","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-07-14T16:08:05.713+0530","caller":"core/lifecycle.go:692","msg":"All goroutines exited"}
+{"level":"info","time":"2023-07-14T16:08:05.713+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=82aa8e8c-dce7-472b-ad2f-af180c2a8cf4\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:08:05.714+0530","caller":"cmd/bin.go:251","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-07-14T16:11:11.927+0530","caller":"cmd/bin.go:101","msg":"Upstream version: {Name: Min:0.2.96 Max:0.2.96} "}
+{"level":"debug","time":"2023-07-14T16:11:14.078+0530","caller":"core/lifecycle.go:95","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-14T16:11:14.080+0530","caller":"core/lifecycle.go:101","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-14T16:11:14.080+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-14T16:11:14.080+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-14T16:11:15.005+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:11:15.006+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-14T16:11:15.006+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-14T16:11:15.007+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.007+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.007+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"models/HypertestYamlConfig.go:433","msg":""}
+{"level":"debug","time":"2023-07-14T16:11:15.008+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:11:15.008+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-14T16:11:15.008+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-14T16:11:15.008+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-14T16:11:15.008+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-14T16:11:15.022+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:15.022+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-07-14T16:11:15.022+0530","caller":"core/lifecycle.go:228","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-07-14T16:11:20.179+0530","caller":"core/lifecycle.go:352","msg":"Job ID: ec333dcd-18c8-4ff3-8807-b579efce3bba"}
+{"level":"debug","time":"2023-07-14T16:11:20.179+0530","caller":"core/lifecycle.go:358","msg":"User has provided android/appium as test type for the job with ID ec333dcd-18c8-4ff3-8807-b579efce3bba"}
+{"level":"debug","time":"2023-07-14T16:11:20.184+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp"}
+{"level":"debug","time":"2023-07-14T16:11:20.192+0530","caller":"core/lifecycle.go:477","msg":"Zip file size: 2.44 kB"}
+{"level":"debug","time":"2023-07-14T16:11:20.192+0530","caller":"core/lifecycle.go:486","msg":"Archive location: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-ec333dcd-18c8-4ff3-8807-b579efce3bba.zip\n"}
+{"level":"debug","time":"2023-07-14T16:11:20.193+0530","caller":"storage/azure.go:51","msg":"Payload size: 2.44 kB"}
+{"level":"debug","time":"2023-07-14T16:11:23.926+0530","caller":"receptionmanager/setup.go:175","msg":"Uploading yaml : /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-07-14T16:11:23.926+0530","caller":"storage/azure.go:51","msg":"Payload size: 1.56 kB"}
+{"level":"debug","time":"2023-07-14T16:11:27.226+0530","caller":"core/lifecycle.go:512","msg":"Successfully deleted code archive: /Users/vishnu/testsuites/hyperexecute/python_mob_hyp/hyperexecute-code-ec333dcd-18c8-4ff3-8807-b579efce3bba.zip\n"}
+{"level":"info","time":"2023-07-14T16:11:34.648+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4mec333dcd-18c8-4ff3-8807-b579efce3bba\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-07-14T16:11:34.650+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ec333dcd-18c8-4ff3-8807-b579efce3bba\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:11:34.650+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-07-14T16:11:34.650+0530","caller":"jobmanager/setup.go:149","msg":"Task id: fffed88f-91ff-49b0-9702-ef4af0f93059"}
+{"level":"debug","time":"2023-07-14T16:11:34.650+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: fffed88f-91ff-49b0-9702-ef4af0f93059"}
+{"level":"debug","time":"2023-07-14T16:13:39.046+0530","caller":"jobmanager/setup.go:92","msg":"Retrying to poll job details"}
+{"level":"debug","time":"2023-07-14T16:16:34.032+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-07-14T16:16:34.057+0530","caller":"core/lifecycle.go:683","msg":"Context cancelled"}
+{"level":"info","time":"2023-07-14T16:16:34.057+0530","caller":"core/lifecycle.go:686","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-07-14T16:16:34.057+0530","caller":"core/lifecycle.go:689","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-07-14T16:16:34.057+0530","caller":"core/lifecycle.go:690","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-07-14T16:16:34.057+0530","caller":"core/lifecycle.go:692","msg":"All goroutines exited"}
+{"level":"info","time":"2023-07-14T16:16:34.057+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ec333dcd-18c8-4ff3-8807-b579efce3bba\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-07-14T16:16:34.057+0530","caller":"cmd/bin.go:251","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-07-25T18:04:58.921+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.100 Max:0.2.100} "}
+{"level":"warn","time":"2023-07-25T18:04:58.956+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-07-25T18:04:58.967+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-07-25T18:05:01.560+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-25T18:05:01.560+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-25T18:05:01.560+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"error","time":"2023-07-25T18:05:01.561+0530","caller":"core/lifecycle.go:112","msg":"2023-07-25T18:04:57+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:01.561+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:39.730+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.100 Max:0.2.100} "}
+{"level":"warn","time":"2023-07-25T18:05:39.732+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-07-25T18:05:39.733+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-07-25T18:05:46.109+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-25T18:05:46.109+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-25T18:05:46.109+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:46.109+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:47.120+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"debug","time":"2023-07-25T18:05:47.121+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-25T18:05:47.121+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-25T18:05:47.121+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.122+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.122+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.122+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.122+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-25T18:05:47.122+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.123+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.123+0530","caller":"models/HypertestYamlConfig.go:395","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.123+0530","caller":"models/HypertestYamlConfig.go:435","msg":""}
+{"level":"debug","time":"2023-07-25T18:05:47.123+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:47.123+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-25T18:05:47.123+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-25T18:05:47.124+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-25T18:05:47.124+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-25T18:05:47.184+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 0\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:47.188+0530","caller":"testdiscoverer/discoverer.go:84","msg":""}
+{"level":"debug","time":"2023-07-25T18:05:47.189+0530","caller":"testdiscoverer/discoverer.go:87","msg":"Stdout: "}
+{"level":"debug","time":"2023-07-25T18:05:47.189+0530","caller":"testdiscoverer/discoverer.go:88","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2023-07-25T18:05:47.189+0530","caller":"core/lifecycle.go:233","msg":"2023-07-25T18:05:38+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2023-07-25T18:05:47.189+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2023-07-25T18:05:55.020+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.100 Max:0.2.100} "}
+{"level":"warn","time":"2023-07-25T18:05:55.022+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-07-25T18:05:55.025+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-07-25T18:05:57.708+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-25T18:05:57.708+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-25T18:05:57.708+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:57.708+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:58.790+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"debug","time":"2023-07-25T18:05:58.791+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-25T18:05:58.791+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-25T18:05:58.791+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.791+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.791+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.791+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.792+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-25T18:05:58.792+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.792+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.792+0530","caller":"models/HypertestYamlConfig.go:395","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.792+0530","caller":"models/HypertestYamlConfig.go:435","msg":""}
+{"level":"debug","time":"2023-07-25T18:05:58.792+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:05:58.792+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-25T18:05:58.793+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-25T18:05:58.793+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-25T18:05:58.793+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-25T18:05:58.835+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 0\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:05:58.836+0530","caller":"testdiscoverer/discoverer.go:84","msg":""}
+{"level":"debug","time":"2023-07-25T18:05:58.836+0530","caller":"testdiscoverer/discoverer.go:87","msg":"Stdout: "}
+{"level":"debug","time":"2023-07-25T18:05:58.836+0530","caller":"testdiscoverer/discoverer.go:88","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2023-07-25T18:05:58.837+0530","caller":"core/lifecycle.go:233","msg":"2023-07-25T18:05:53+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2023-07-25T18:05:58.837+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2023-07-25T18:06:43.297+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.100 Max:0.2.100} "}
+{"level":"warn","time":"2023-07-25T18:06:43.299+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-07-25T18:06:43.300+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-07-25T18:06:49.472+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-07-25T18:06:49.472+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-07-25T18:06:49.472+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-07-25T18:06:49.473+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-07-25T18:06:50.432+0530","caller":"yamlconfigmanager/setup.go:1609","msg":"Autodetecting test type in files of path : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"debug","time":"2023-07-25T18:06:50.433+0530","caller":"yamlconfigmanager/setup.go:775","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-07-25T18:06:50.433+0530","caller":"yamlconfigmanager/setup.go:351","msg":"Tunnel: false"}
+{"level":"info","time":"2023-07-25T18:06:50.433+0530","caller":"models/HypertestYamlConfig.go:297","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.433+0530","caller":"models/HypertestYamlConfig.go:301","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.433+0530","caller":"models/HypertestYamlConfig.go:340","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.434+0530","caller":"models/HypertestYamlConfig.go:344","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.434+0530","caller":"models/HypertestYamlConfig.go:355","msg":"Framework:"}
+{"level":"info","time":"2023-07-25T18:06:50.434+0530","caller":"models/HypertestYamlConfig.go:356","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.434+0530","caller":"models/HypertestYamlConfig.go:388","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.434+0530","caller":"models/HypertestYamlConfig.go:395","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.435+0530","caller":"models/HypertestYamlConfig.go:435","msg":""}
+{"level":"debug","time":"2023-07-25T18:06:50.435+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:06:50.435+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-07-25T18:06:50.436+0530","caller":"appium/appium.go:116","msg":"\nUsing app with unique id - appID"}
+{"level":"debug","time":"2023-07-25T18:06:50.436+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-07-25T18:06:50.437+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-07-25T18:06:50.536+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-07-25T18:06:50.536+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-07-25T18:06:50.536+0530","caller":"core/lifecycle.go:245","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-07-25T18:06:51.887+0530","caller":"core/lifecycle.go:367","msg":"Job ID: 2c64e702-d0d1-4daf-87be-873293030418"}
+{"level":"debug","time":"2023-07-25T18:06:51.887+0530","caller":"core/lifecycle.go:373","msg":"User has provided android/appium as test type for the job with ID 2c64e702-d0d1-4daf-87be-873293030418"}
+{"level":"debug","time":"2023-07-25T18:06:51.888+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"info","time":"2023-07-25T18:06:51.892+0530","caller":"archivemanager/setup.go:125","msg":"`---- and.py"}
+{"level":"info","time":"2023-07-25T18:06:51.893+0530","caller":"archivemanager/setup.go:125","msg":"`---- android.yaml"}
+{"level":"info","time":"2023-07-25T18:06:51.895+0530","caller":"archivemanager/setup.go:125","msg":"`---- requirements.txt"}
+{"level":"info","time":"2023-07-25T18:06:51.895+0530","caller":"archivemanager/setup.go:125","msg":"`---- tests.txt"}
+{"level":"debug","time":"2023-07-25T18:06:51.897+0530","caller":"core/lifecycle.go:497","msg":"Zip file size: 2.45 kB"}
+{"level":"debug","time":"2023-07-25T18:06:51.898+0530","caller":"core/lifecycle.go:507","msg":"Archive location: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\hyperexecute-code-2c64e702-d0d1-4daf-87be-873293030418.zip\n"}
+{"level":"debug","time":"2023-07-25T18:06:51.899+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.45 kB"}
+{"level":"debug","time":"2023-07-25T18:06:51.917+0530","caller":"utils/azcopy.go:152","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-07-25T18:07:00.690+0530","caller":"utils/azcopy.go:117","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2023-07-25T18:07:04.474+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-07-25T18:07:04.479+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.56 kB"}
+{"level":"debug","time":"2023-07-25T18:07:09.631+0530","caller":"core/lifecycle.go:535","msg":"Successfully deleted code archive: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\hyperexecute-code-2c64e702-d0d1-4daf-87be-873293030418.zip\n"}
+{"level":"info","time":"2023-07-25T18:07:17.210+0530","caller":"jobmanager/setup.go:129","msg":"Job 2c64e702-d0d1-4daf-87be-873293030418 has started RUNNING"}
+{"level":"info","time":"2023-07-25T18:07:17.210+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2c64e702-d0d1-4daf-87be-873293030418\n"}
+{"level":"debug","time":"2023-07-25T18:07:17.211+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-07-25T18:07:17.211+0530","caller":"jobmanager/setup.go:149","msg":"Task id: f9d30353-f933-4876-a8b2-7f7b55fb1a03"}
+{"level":"debug","time":"2023-07-25T18:07:17.211+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: f9d30353-f933-4876-a8b2-7f7b55fb1a03"}
+{"level":"info","time":"2023-07-25T18:10:46.568+0530","caller":"jobmanager/setup.go:131","msg":"Job 2c64e702-d0d1-4daf-87be-873293030418 has COMPLETED"}
+{"level":"info","time":"2023-07-25T18:10:46.568+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2c64e702-d0d1-4daf-87be-873293030418\n"}
+{"level":"debug","time":"2023-07-25T18:10:46.586+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-07-25T18:10:46.586+0530","caller":"jobmanager/setup.go:210","msg":"\n\nJob status"}
+{"level":"info","time":"2023-07-25T18:10:46.587+0530","caller":"jobmanager/setup.go:220","msg":" ID: 2c64e702-d0d1-4daf-87be-873293030418\n Status: COMPLETED\n Remark: \n OrgID: 550422\n Created: 2023-07-25 12:36:52 +0000 UTC\n Updated: 2023-07-25 12:40:42 +0000 UTC\n global timeout: 90\n testsuite timeout: 90\n retry on failure: false\n start time: 2023-07-25 12:37:13 +0000 UTC\n end time: 2023-07-25 12:40:42 +0000 UTC\n duration: 3m29s"}
+{"level":"info","time":"2023-07-25T18:10:46.589+0530","caller":"jobmanager/setup.go:225","msg":"\n\nTask status\n"}
+{"level":"info","time":"2023-07-25T18:10:46.589+0530","caller":"jobmanager/setup.go:231","msg":" ID: f9d30353-f933-4876-a8b2-7f7b55fb1a03\n Status: completed\n Remark: error in running test suites - step 1 - exit status 1\n Created: 2023-07-25 12:37:11 +0000 UTC\n Updated: 2023-07-25 12:40:42 +0000 UTC\n context: {\"_jobId\": \"2c64e702-d0d1-4daf-87be-873293030418\", \"_taskId\": \"f9d30353-f933-4876-a8b2-7f7b55fb1a03\"}\n tunnel name: \n os: linux\n start time: 2023-07-25 12:37:13 +0000 UTC\n end time: 2023-07-25 12:40:42 +0000 UTC\n duration: 3m29s"}
+{"level":"info","time":"2023-07-25T18:10:46.592+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-07-25T18:10:46.593+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n COMPLETED \n"}
+{"level":"debug","time":"2023-07-25T18:10:46.593+0530","caller":"core/lifecycle.go:699","msg":"Context canceled"}
+{"level":"info","time":"2023-07-25T18:10:46.594+0530","caller":"core/lifecycle.go:702","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-07-25T18:10:46.595+0530","caller":"core/lifecycle.go:705","msg":"Quit requested from main goroutine...."}
+{"level":"info","time":"2023-07-25T18:10:46.594+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  2m35s"}
+{"level":"info","time":"2023-07-25T18:10:46.596+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    3m29s"}
+{"level":"debug","time":"2023-07-25T18:10:46.595+0530","caller":"core/lifecycle.go:706","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-07-25T18:10:46.596+0530","caller":"core/lifecycle.go:708","msg":"All goroutines exited"}
+{"level":"info","time":"2023-07-25T18:10:46.596+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2c64e702-d0d1-4daf-87be-873293030418\n"}
+{"level":"debug","time":"2023-07-25T18:10:46.597+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2023-07-25T18:10:46.596+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          1"}
+{"level":"debug","time":"2023-08-02T15:15:47.113+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"info","time":"2023-08-02T15:15:47.121+0530","caller":"cmd/bin.go:112","msg":"Current binary version v0.2.100 is less than upstream version v0.2.101."}
+{"level":"info","time":"2023-08-02T15:15:47.122+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2023-08-02T15:15:47.122+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/hyperexecute.exe"}
+{"level":"debug","time":"2023-08-02T15:15:53.511+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2023-08-02T15:15:53.511+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2023-08-02T15:15:53.511+0530","caller":"cmd/bin.go:120","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2023-08-02T15:16:00.251+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-02T15:16:00.253+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-02T15:16:00.253+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-02T15:16:01.921+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-02T15:16:01.921+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-02T15:16:01.921+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-08-02T15:16:01.921+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-08-02T15:16:02.698+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T15:16:02.698+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-02T15:16:02.698+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-02T15:16:02.698+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.699+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.699+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.699+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.699+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-02T15:16:02.700+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.700+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.700+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.700+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-02T15:16:02.700+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T15:16:02.700+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-02T15:16:02.700+0530","caller":"appium/appium.go:108","msg":"\nUsing app with unique id - "}
+{"level":"debug","time":"2023-08-02T15:16:02.701+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-08-02T15:16:02.701+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-08-02T15:16:02.790+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T15:16:02.790+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-02T15:16:02.790+0530","caller":"core/lifecycle.go:246","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-02T15:16:03.896+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 582d810c-dd20-4f97-bfef-d7d545b8d465"}
+{"level":"debug","time":"2023-08-02T15:16:03.896+0530","caller":"core/lifecycle.go:374","msg":"User has provided android/appium as test type for the job with ID 582d810c-dd20-4f97-bfef-d7d545b8d465"}
+{"level":"debug","time":"2023-08-02T15:16:03.897+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T15:16:04.627+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 8.03 MB"}
+{"level":"debug","time":"2023-08-02T15:16:04.628+0530","caller":"core/lifecycle.go:508","msg":"Archive location: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\hyperexecute-code-582d810c-dd20-4f97-bfef-d7d545b8d465.zip\n"}
+{"level":"debug","time":"2023-08-02T15:16:04.628+0530","caller":"storage/azure.go:53","msg":"Payload size: 8.03 MB"}
+{"level":"debug","time":"2023-08-02T15:16:12.888+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T15:16:12.889+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.55 kB"}
+{"level":"debug","time":"2023-08-02T15:16:19.108+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: C:\\Users\\gauravc\\Downloads\\python_mob_hyp\\python_mob_hyp\\hyperexecute-code-582d810c-dd20-4f97-bfef-d7d545b8d465.zip\n"}
+{"level":"info","time":"2023-08-02T15:16:26.219+0530","caller":"jobmanager/setup.go:129","msg":"Job 582d810c-dd20-4f97-bfef-d7d545b8d465 has started RUNNING"}
+{"level":"info","time":"2023-08-02T15:16:26.219+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=582d810c-dd20-4f97-bfef-d7d545b8d465\n"}
+{"level":"debug","time":"2023-08-02T15:16:26.219+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-02T15:16:26.219+0530","caller":"jobmanager/setup.go:149","msg":"Task id: d1bafdc5-70b3-4e61-960f-7857f9cd4d12"}
+{"level":"debug","time":"2023-08-02T15:16:26.219+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: d1bafdc5-70b3-4e61-960f-7857f9cd4d12"}
+{"level":"debug","time":"2023-08-02T16:42:41.807+0530","caller":"cmd/bin.go:101","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"info","time":"2023-08-02T16:42:41.810+0530","caller":"cmd/bin.go:110","msg":"Current binary version v0.2.96 is less than upstream version v0.2.101."}
+{"level":"info","time":"2023-08-02T16:42:41.810+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2023-08-02T16:42:41.811+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/darwin/hyperexecute"}
+{"level":"debug","time":"2023-08-02T16:42:48.717+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2023-08-02T16:42:48.717+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2023-08-02T16:42:48.717+0530","caller":"cmd/bin.go:118","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2023-08-02T16:43:38.816+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-02T16:43:38.822+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-02T16:43:38.822+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-02T16:43:41.797+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-02T16:43:41.798+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-02T16:43:41.798+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-08-02T16:43:41.799+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-08-02T16:43:42.642+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:43:42.643+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-02T16:43:42.644+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.644+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-02T16:43:42.645+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:43:42.645+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-02T16:43:42.645+0530","caller":"appium/appium.go:108","msg":"\nUsing app with unique id - "}
+{"level":"debug","time":"2023-08-02T16:43:42.646+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-08-02T16:43:42.646+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-08-02T16:43:42.673+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:43:42.673+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-02T16:43:42.673+0530","caller":"core/lifecycle.go:246","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-02T16:43:43.862+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 3aad05b1-71d7-47f5-a757-2f064048370a"}
+{"level":"debug","time":"2023-08-02T16:43:43.863+0530","caller":"core/lifecycle.go:374","msg":"User has provided android/appium as test type for the job with ID 3aad05b1-71d7-47f5-a757-2f064048370a"}
+{"level":"debug","time":"2023-08-02T16:43:43.867+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:43:44.582+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 8.03 MB"}
+{"level":"debug","time":"2023-08-02T16:43:44.584+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-3aad05b1-71d7-47f5-a757-2f064048370a.zip\n"}
+{"level":"debug","time":"2023-08-02T16:43:44.584+0530","caller":"storage/azure.go:53","msg":"Payload size: 8.03 MB"}
+{"level":"debug","time":"2023-08-02T16:43:44.587+0530","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2023-08-02T16:43:44.587+0530","caller":"utils/azcopy.go:152","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-08-02T16:43:51.230+0530","caller":"utils/azcopy.go:117","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2023-08-02T16:43:59.289+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/mohammadk/Downloads/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:43:59.290+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.55 kB"}
+{"level":"debug","time":"2023-08-02T16:44:02.640+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-3aad05b1-71d7-47f5-a757-2f064048370a.zip\n"}
+{"level":"debug","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:626","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-02T16:44:03.950+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-02T16:44:03.951+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=3aad05b1-71d7-47f5-a757-2f064048370a\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-02T16:44:03.951+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-02T16:48:25.995+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-02T16:48:25.997+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-02T16:48:25.997+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-02T16:48:33.258+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-02T16:48:33.258+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-02T16:48:33.259+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-08-02T16:48:33.259+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-08-02T16:48:34.137+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:48:34.138+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-02T16:48:34.138+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-02T16:48:34.138+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.139+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-02T16:48:34.139+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:48:34.139+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-02T16:48:34.140+0530","caller":"appium/appium.go:108","msg":"\nUsing app with unique id - "}
+{"level":"debug","time":"2023-08-02T16:48:34.140+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-08-02T16:48:34.140+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-08-02T16:48:34.167+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:48:34.167+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-02T16:48:34.167+0530","caller":"core/lifecycle.go:246","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-02T16:48:35.232+0530","caller":"core/lifecycle.go:368","msg":"Job ID: f52c87d0-0fbe-4847-b543-9d920c819c2c"}
+{"level":"debug","time":"2023-08-02T16:48:35.232+0530","caller":"core/lifecycle.go:374","msg":"User has provided android/appium as test type for the job with ID f52c87d0-0fbe-4847-b543-9d920c819c2c"}
+{"level":"debug","time":"2023-08-02T16:48:35.233+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:48:36.154+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:48:36.154+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-f52c87d0-0fbe-4847-b543-9d920c819c2c.zip\n"}
+{"level":"debug","time":"2023-08-02T16:48:36.154+0530","caller":"storage/azure.go:53","msg":"Payload size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:48:47.610+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/mohammadk/Downloads/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:48:47.610+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.55 kB"}
+{"level":"debug","time":"2023-08-02T16:48:50.921+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-f52c87d0-0fbe-4847-b543-9d920c819c2c.zip\n"}
+{"level":"debug","time":"2023-08-02T16:48:52.257+0530","caller":"core/lifecycle.go:626","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2023-08-02T16:48:52.258+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-02T16:48:52.258+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-02T16:48:52.258+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-02T16:48:52.258+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-02T16:48:52.258+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-02T16:48:52.258+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f52c87d0-0fbe-4847-b543-9d920c819c2c\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-02T16:48:52.258+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-02T16:52:12.365+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-02T16:52:12.370+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-02T16:52:12.371+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-02T16:52:14.309+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-02T16:52:14.310+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-02T16:52:14.311+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-08-02T16:52:14.312+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-08-02T16:52:15.121+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:52:15.123+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-02T16:52:15.123+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-02T16:52:15.123+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-02T16:52:15.124+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:52:15.124+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-02T16:52:15.124+0530","caller":"appium/appium.go:108","msg":"\nUsing app with unique id - "}
+{"level":"debug","time":"2023-08-02T16:52:15.124+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-08-02T16:52:15.124+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-08-02T16:52:15.139+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:52:15.139+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-02T16:52:15.139+0530","caller":"core/lifecycle.go:246","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-02T16:52:16.703+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 62e61251-65bb-4074-ae08-b29e781afae8"}
+{"level":"debug","time":"2023-08-02T16:52:16.704+0530","caller":"core/lifecycle.go:374","msg":"User has provided android/appium as test type for the job with ID 62e61251-65bb-4074-ae08-b29e781afae8"}
+{"level":"debug","time":"2023-08-02T16:52:16.710+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:52:17.524+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:52:17.525+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-62e61251-65bb-4074-ae08-b29e781afae8.zip\n"}
+{"level":"debug","time":"2023-08-02T16:52:17.525+0530","caller":"storage/azure.go:53","msg":"Payload size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:52:37.000+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/mohammadk/Downloads/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:52:37.001+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.55 kB"}
+{"level":"debug","time":"2023-08-02T16:52:40.200+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-62e61251-65bb-4074-ae08-b29e781afae8.zip\n"}
+{"level":"debug","time":"2023-08-02T16:52:41.607+0530","caller":"core/lifecycle.go:626","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2023-08-02T16:52:41.609+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-02T16:52:41.609+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-02T16:52:41.609+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-02T16:52:41.609+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-02T16:52:41.609+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-02T16:52:41.609+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=62e61251-65bb-4074-ae08-b29e781afae8\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-02T16:52:41.611+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-02T16:56:36.055+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-02T16:56:36.061+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-02T16:56:36.062+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-02T16:56:38.851+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-02T16:56:38.852+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-02T16:56:38.852+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: android.yaml"}
+{"level":"debug","time":"2023-08-02T16:56:38.853+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : android.yaml"}
+{"level":"debug","time":"2023-08-02T16:56:39.741+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:56:39.744+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-02T16:56:39.745+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-02T16:56:39.745+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.748+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.748+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.748+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.748+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-02T16:56:39.748+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.749+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.749+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.749+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-02T16:56:39.749+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:56:39.751+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-02T16:56:39.751+0530","caller":"appium/appium.go:108","msg":"\nUsing app with unique id - "}
+{"level":"debug","time":"2023-08-02T16:56:39.752+0530","caller":"testdiscoverer/discoverer.go:154","msg":"Running discovery command cat tests.txt"}
+{"level":"debug","time":"2023-08-02T16:56:39.753+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: cat tests.txt"}
+{"level":"info","time":"2023-08-02T16:56:39.777+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-02T16:56:39.777+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mand.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-02T16:56:39.778+0530","caller":"core/lifecycle.go:246","msg":"Concurrency 5 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-02T16:56:40.967+0530","caller":"core/lifecycle.go:368","msg":"Job ID: c67046cb-10c2-4938-83bb-8d147474ab3d"}
+{"level":"debug","time":"2023-08-02T16:56:40.967+0530","caller":"core/lifecycle.go:374","msg":"User has provided android/appium as test type for the job with ID c67046cb-10c2-4938-83bb-8d147474ab3d"}
+{"level":"debug","time":"2023-08-02T16:56:40.968+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/mohammadk/Downloads/python_mob_hyp"}
+{"level":"debug","time":"2023-08-02T16:56:41.827+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:56:41.827+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-c67046cb-10c2-4938-83bb-8d147474ab3d.zip\n"}
+{"level":"debug","time":"2023-08-02T16:56:41.827+0530","caller":"storage/azure.go:53","msg":"Payload size: 12.11 MB"}
+{"level":"debug","time":"2023-08-02T16:57:09.362+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/mohammadk/Downloads/python_mob_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-02T16:57:09.364+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.55 kB"}
+{"level":"debug","time":"2023-08-02T16:57:12.687+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/mohammadk/Downloads/python_mob_hyp/hyperexecute-code-c67046cb-10c2-4938-83bb-8d147474ab3d.zip\n"}
+{"level":"debug","time":"2023-08-02T16:57:14.025+0530","caller":"core/lifecycle.go:626","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2023-08-02T16:57:14.027+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-02T16:57:14.027+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-02T16:57:14.027+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-02T16:57:14.027+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-02T16:57:14.027+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-02T16:57:14.027+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c67046cb-10c2-4938-83bb-8d147474ab3d\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-02T16:57:14.028+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}

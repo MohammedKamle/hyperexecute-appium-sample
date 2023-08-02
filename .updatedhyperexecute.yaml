@@ -1,0 +1,68 @@
+version: "0.2"
+user: mohammadk
+key: rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd
+testSuites: []
+pre: [pip install -r requirements.txt]
+preDirectives:
+    commands: [pip install -r requirements.txt]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+runson: linux
+autosplit: true
+concurrency: 1
+testDiscovery:
+    command: cat tests.txt
+    mode: static
+    type: raw
+testDiscoveryResult:
+    - and.py
+testRunnerCommand: python $test
+jobID: c67046cb-10c2-4938-83bb-8d147474ab3d
+codeDirectory: python_mob_hyp
+framework:
+    name: appium
+    flags: []
+    discoveryFlags: []
+    discoveryType: method
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices: []
+        deviceSelectionStrategy: ""
+        appId: ""
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        video: true
+        deviceLog: true
+        buildName: ""
+        region: us
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: android/appium
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+collectLocalGitData: true
+dynamicAllocation: true
