@@ -17,6 +17,7 @@ caps = {
         "isRealMobile": True,
         "app": "<YOUR_APP_URL>",
         "devicelog": True,
+        "deviceName" : "Pixel.*",
         "build": "Hyperexecute_Appium",
         "visual": False,
         "video": True,
